@@ -33,7 +33,7 @@ public class Fading : MonoBehaviour
         }
     }
 
-    private IEnumerator Fade()
+    public IEnumerator Fade()
     {
         while (fadeValue < 1)
         {
